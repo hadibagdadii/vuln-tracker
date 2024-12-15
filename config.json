@@ -1,0 +1,8 @@
+{
+  "kerberosID": "loginID",
+  "sender": "ie-security@ucdavis.edu",
+  "password": "use app password",
+  "receiver": "ie-help@ucdavis.edu",
+  "signature": "IE Security",
+  "csv_file": "C:/Users/USERNAME/Box/JMIE/IENV-IT/Security/VMP/Vulns/VULN-CSV-FILE.csv",
+  "folder": "C:/Users/USERNAME/Box/JMIE/IENV-IT/Security/VMP/Vulns/"}
