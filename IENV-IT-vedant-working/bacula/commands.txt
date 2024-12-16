@@ -1,0 +1,2 @@
+To "touch" a file in Windows to create an updated timestamp:
+copy /b filename.txt +,,

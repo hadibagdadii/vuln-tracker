@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export API_KEY_TENABLE_ACCESS_KEY="XXX"
+export API_KEY_TENABLE_SECRET_KEY="XXX"

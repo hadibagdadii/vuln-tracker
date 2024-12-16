@@ -1,0 +1,3 @@
+Plugin,Plugin Name,Family,Severity,VPR,IP Address,NetBIOS Name,DNS Name,MAC Address,Repository
+150355,Microsoft Windows VP9 Video Extensions Library RCE (June 2021),Windows,High,7.4,128.120.127.175,ou.ad3.ucdavis.edu\JMIE-15-BM1KS52,jmie-15-bm1ks52.ou.ad3.ucdavis.edu,30:de:4b:44:dd:16,Agent - JMIE
+85879,MS15-099: Vulnerabilities in Microsoft Office Could Allow Remote Code Execution (3089664),Windows : Microsoft Bulletins,High,9.7,128.120.127.174,ou.ad3.ucdavis.edu\CHE-VW-GRAD4-19,che-vw-grad4-19.ou.ad3.ucdavis.edu,8c:ec:4b:b2:f1:14,Agent - JMIE

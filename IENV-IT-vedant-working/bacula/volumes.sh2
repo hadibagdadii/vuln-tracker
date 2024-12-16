@@ -1,0 +1,24 @@
+#!/bin/bash
+
+vols_all=volumes-hydro-all.list
+vols_restore=volumes-hydro-restore-uniq.list
+vols_delete=volumes-hydro-delete.list
+
+#vols_all=volumes-hydro-all.list
+#vols_restore=volumes-hydro-restore-uniq.list
+#vols_delete=volumes-hydro-delete.list
+
+#vols_all=volumes-s1-g-all.list
+#vols_restore=volumes-s1-g-restore-uniq.list
+#vols_delete=volumes-s1-g-delete.list
+
+> $vols_delete
+for i in $(cat $vols_all);do
+	echo $i should be deleted?
+	if [[ ! $(grep $i $vols_restore) ]] ; then
+		 echo yes
+		 echo $i >> $vols_delete
+	fi
+done
+
+
